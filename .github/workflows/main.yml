@@ -4,8 +4,7 @@ on:
       - opened
 
 jobs:
-  if_merged:
-   
+  pr_created: 
     runs-on: ubuntu-latest
     steps:
     - run: |
